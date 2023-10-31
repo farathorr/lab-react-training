@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.IdCard{
+  list-style-type: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 5pt;
+  margin-bottom: 10pt;
+}
+
+.infoList {
+  list-style-type : none;
+  text-align: left;
+}
+.info {
+  display : flex;
+  outline-style: solid;
+  outline-offset: 1pt;
+  outline-color: black;
+  outline-width: 1px;
+
+}
+.profileImg{
+  margin: 3pt;
 }
